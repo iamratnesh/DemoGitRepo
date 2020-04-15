@@ -1,3 +1,0 @@
-theme: jekyll-theme-cayman
-- name: jenkins-action-parametrized
-  uses: enflo/jenkins-action@0.1.2
