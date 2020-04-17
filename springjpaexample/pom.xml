@@ -115,4 +115,9 @@
 	<build>
 		<finalName>springjpaexample</finalName>
 	</build>
+	
+	<properties>
+    <maven.compiler.source>7.0</maven.compiler.source>
+    <maven.compiler.target>7.0</maven.compiler.target>
+  </properties>
 </project>
