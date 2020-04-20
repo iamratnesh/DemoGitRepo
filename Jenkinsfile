@@ -1,7 +1,7 @@
 node{
 		stage ('Checkout Code') {
 			
-			git 'https://github.com/iamratnesh/DemoGitRepo/tree/master/springjpaexample'
+			git clone https://github.com/iamratnesh/DemoGitRepo.git
 		}
 		stage ('Compile Package') {
 			
