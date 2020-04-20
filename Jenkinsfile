@@ -1,7 +1,7 @@
 node{
 		stage ('Checkout Code') {
 			
-			git clone 'https://github.com/iamratnesh/DemoGitRepo.git'
+			git 'https://github.com/iamratnesh/DemoGitRepo'
 		}
 		stage ('Compile Package') {
 			
